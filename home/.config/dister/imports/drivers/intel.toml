@@ -1,0 +1,15 @@
+pkgs = [
+  "mesa",
+  "libva",
+  "vulkan-intel",
+  "vulkan-validation-layers",
+  "intel-ucode",
+  "intel-media-sdk",
+  "intel-media-driver",
+  "libva-intel-driver",
+  "intel-compute-runtime",
+  "intel-graphics-compiler",
+  "xf86-video-intel",
+  "intel-ucode",
+  "libva-utils",
+]

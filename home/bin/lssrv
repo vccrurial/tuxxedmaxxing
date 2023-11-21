@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+
+pacman -Qql "$(paru -Qeq)" | grep -E '(\.service|\.timer)$' | grep -Ev '@\.service$'

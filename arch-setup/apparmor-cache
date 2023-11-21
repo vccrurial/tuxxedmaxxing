@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+
+sed -i "s/^#write-cache$/write-cache/" /etc/apparmor/parser.conf

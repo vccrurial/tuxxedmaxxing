@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+
+env WLR_RENDERER=vulkan XDG_CURRENT_DESKTOP=sway sway

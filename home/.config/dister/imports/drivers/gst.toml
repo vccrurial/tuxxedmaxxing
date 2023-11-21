@@ -1,0 +1,7 @@
+pkgs = [
+  "gst-libav",
+  "gst-plugins-bad",
+  "gst-plugins-ugly",
+  "gst-plugins-good",
+  "gst-plugins-base",
+]

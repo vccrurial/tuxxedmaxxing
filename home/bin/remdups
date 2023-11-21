@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+input_file="$1"
+output_file="$(basename "$input_file" .txt)_noduplicates.txt"
+
+awk '!seen[$0]++' "$input_file" > "$output_file"
+
+echo "Duplicate lines removed and saved to $output_file"

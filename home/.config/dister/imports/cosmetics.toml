@@ -1,0 +1,13 @@
+pkgs = [
+  "nerd-fonts",
+  "noto-fonts",
+  "noto-fonts-cjk",
+  "noto-fonts-emoji",
+  "noto-fonts-extra",
+  "ttf-font-awesome",
+  "otf-font-awesome",
+  "terminus-font",
+  "papirus-icon-theme",
+  "nwg-look-bin",
+  "gnome-themes-extra",
+]

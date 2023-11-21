@@ -1,0 +1,19 @@
+imports = [
+  "pipewire"
+  "programming_languages/rust",
+  "drivers/intel",
+  "drivers/gst",
+  "apps",
+  "sway",
+  "cosmetics",
+  "core-packages",
+]
+
+pkgs = [
+]
+
+flatpaks = [
+]
+
+crates = [
+]

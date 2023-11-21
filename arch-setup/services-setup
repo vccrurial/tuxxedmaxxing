@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+
+sudo systemctl enable iwd.service
+sudo systemctl enable systemd-resolved.service
+sudo systemctl enable ufw.service
+sudo systemctl enable apparmor.service
+sudo systemctl enable keyd.service
+sudo systemctl enable auto-cpufreq.service
+sudo systemctl enable chronyd.service
+sudo systemctl enable thermald.service
+sudo systemctl enable dbus-broker.service
+
+systemctl enable --user dbus-broker.service
+sudo ufw enable

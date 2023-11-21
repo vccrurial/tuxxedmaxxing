@@ -1,0 +1,10 @@
+imports = [
+  "wayland",
+]
+
+pkgs = [
+  "sway-git",
+  "swaybg",
+  "xdg-desktop-portal-wlr-git",
+  "xdg-desktop-portal-gtk",
+]

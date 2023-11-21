@@ -1,0 +1,16 @@
+pkgs = [
+  "cliphist",
+  "qt5-wayland",
+  "qt6-wayland",
+  "polkit-gnome",
+  "hyprpicker-git",
+  "grim",
+  "slurp",
+  "swaylock-effects",
+  "emacs-wayland",
+  "foot",
+  "foot-terminfo",
+  "wofi",
+  "bemenu-wayland",
+  "wf-recorder",
+]

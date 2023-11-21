@@ -1,0 +1,36 @@
+set {
+  $term foot
+  $mod Mod4
+  $left h
+  $down j
+  $up k
+  $right l
+}
+
+input type:touchpad {
+  dwt enabled
+  middle_emulation enabled
+  tap enabled
+  pointer_accel 1
+  natural_scroll enabled
+}
+
+input type:keyboard {
+  repeat_delay 190
+  repeat_rate 35
+  xkb_layout us,ru
+  xkb_options grp:alt_space_toggle
+}
+
+exec swayidle -w before-sleep swaylock
+
+seat * xcursor_theme Adwaita
+# output * bg $HOME/tmp/wall.png fill
+font Go Mono Nerd Font 11
+floating_modifier $mod normal
+hide_edge_borders --i3 smart
+default_floating_border normal 0
+default_border pixel 3
+bindswitch --locked lid:on exec swaylock
+
+include $HOME/.config/sway/*.conf

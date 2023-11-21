@@ -1,0 +1,23 @@
+#!/bin/sh
+
+alias hx="helix"
+alias cp="cp -v"
+alias mv="mv -v"
+alias mkd="mkdir -pv"
+alias ls="ls -F --group-directories-first"
+alias la="ls -aFl --group-directories-first"
+alias ll="ls -ahlF --group-directories-first"
+
+if command -v sudo >/dev/null 2>&1; then
+    alias dcp="sudo cp -v"
+    alias dmv="sudo mv -v"
+    alias dmkd="sudo mkdir -pv"
+    alias se="sudoedit"
+fi
+
+if command -v doas >/dev/null 2>&1; then
+    alias dcp="doas cp -v"
+    alias dmv="doas mv -v"
+    alias dmkd="doas mkdir -pv"
+    alias de="doasedit"
+fi

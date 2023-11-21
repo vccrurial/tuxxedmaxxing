@@ -1,0 +1,10 @@
+pkgs = [
+  "pipewire",
+  "pipewire-alsa",
+  "pipewire-jack",
+  "pipewire-pulse",
+  "gst-plugin-pipewire",
+  "libpulse",
+  "wireplumber",
+  "sof-firmware",
+]
