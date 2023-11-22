@@ -9,6 +9,8 @@ sudo systemctl enable auto-cpufreq.service
 sudo systemctl enable chronyd.service
 sudo systemctl enable thermald.service
 sudo systemctl enable dbus-broker.service
+sudo systemctl enable sshd.service
 
 systemctl enable --user dbus-broker.service
+systemctl enable --user ssh-agent.service
 sudo ufw enable
