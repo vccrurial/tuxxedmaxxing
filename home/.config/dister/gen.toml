@@ -1,5 +1,5 @@
 imports = [
-  "pipewire"
+  "pipewire",
   "programming_languages/rust",
   "drivers/intel",
   "drivers/gst",
