@@ -25,7 +25,7 @@ pkgs = [
   "devtools",
   "downgrade",
   "keyd",
-  "firewalld",
+  "ufw",
   "mosh",
   "pacman-contrib",
   "archlinux-contrib",
