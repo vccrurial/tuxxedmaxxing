@@ -13,7 +13,6 @@ pkgs = [
   "ranger",
   "aria2",
   "plocate",
-  "bubblejail",
   "helix",
   "gammastep",
   "flameshot-git",
