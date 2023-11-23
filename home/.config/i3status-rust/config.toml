@@ -12,10 +12,6 @@ cmd = "$TERMINAL -a float_term nmtui"
 block = "battery"
 format = " $icon  $percentage "
 full_format = " $icon  $percentage "
-driver = "upower"
-[[block.click]]
-button = "left"
-cmd = "auto-cpufreq-gtk"
 
 [[block]]
 block = "sound"
