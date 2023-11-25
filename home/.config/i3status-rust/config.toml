@@ -16,9 +16,6 @@ full_format = " $icon  $percentage "
 [[block]]
 block = "sound"
 headphones_indicator = true
-[[block.click]]
-button = "left"
-cmd = "qpwgraph"
 
 [[block]]
 block = "time"
